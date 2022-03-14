@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+    <div class="app">
+        <h1  id="showAge" class="text-4xl mb-4 hidden">You were born in: 
+            <span id="birthYearElement"></span>
+        </h1>
+        <div class="mb-4">
+            
+            <input type="number" id="ageInput" placeholder="Enter your age." class="p-4 w-full bg-gray-50 rounded-md focus:outline-none focus:ring-2 ring-blue-500 focus:shadow-2xl text-2xl">
+
+        </div>
+        <button id="submit" class=" w-full p-4 bg-orange-300 text-white text-lg rounded-md hover:scale-105 active:scale-100 duration-75">
+            Guess My Birth Year
+        </button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
